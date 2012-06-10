@@ -1,0 +1,8 @@
+Copyright 2012 Kevin Riedl and Bart Massey
+
+This code should not be copied or used for any school projects or used in any professional programs since it is intended
+to be a learning testbed and most likely is in some state of broken or incomplete in fucntionality. Use at your own risk.
+
+This program was outlined by Bart Massey for an internetworking protocols class and has been modified by Kevin Riedl.
+The initial intent was to be an assignment, but this is an ongoing project to teach myself (Kevin Riedl) how basic
+packets are passed from device to device.
