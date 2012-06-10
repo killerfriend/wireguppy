@@ -1,0 +1,491 @@
+h0: d4c3b2a1
+h1: 02000400
+h2: 00000000
+h3: 00000000
+h4: ffff0000
+h5: 01000000
+
+paylen: 77 (77)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            63
+IP ID:                0x1308
+IP flags:             0x0
+IP offset:            0x00000000
+IP TTL:               128
+IP Protocol:          UDP
+IP checksum:          0xf0cb
+IP source:            10.200.101.6
+IP destination:       192.168.6.100
+UDP source port:      63765
+UDP destination port: 53
+UDP length (bytes):   43
+UDP checksum:         0xe396
+pad length:           0
+
+paylen: 270 (270)
+src:                  00:26:c7:b5:06:a4
+dst:                  00:90:fb:24:bc:f3
+length/type:          0x0800
+IP length:            256
+IP ID:                0x2806
+IP flags:             0x0
+IP offset:            0x00000000
+IP TTL:               127
+IP Protocol:          UDP
+IP checksum:          0xdc0c
+IP source:            192.168.6.100
+IP destination:       10.200.101.6
+UDP source port:      53
+UDP destination port: 63765
+UDP length (bytes):   236
+UDP checksum:         0x03a4
+pad length:           0
+
+paylen: 66 (66)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            52
+IP ID:                0x1309
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x0269
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP option word#00:   0x020405b4
+TCP option word#01:   0x01030302
+TCP option word#02:   0x01010402
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce1fe0
+TCP header length:    8
+TCP window size:      8192
+TCP checksum:         0xf844
+pad length:           0
+
+paylen: 66 (66)
+src:                  00:26:c7:b5:06:a4
+dst:                  00:90:fb:24:bc:f3
+length/type:          0x0800
+IP length:            52
+IP ID:                0x0000
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               45
+IP Protocol:          TCP
+IP checksum:          0x6872
+IP source:            128.119.245.12
+IP destination:       10.200.101.6
+TCP option word#00:   0x0204056a
+TCP option word#01:   0x01010402
+TCP option word#02:   0x01030307
+TCP Source Port:      80
+TCP Destination Port: 17281
+TCP Sequence num:     0x3d283f17
+TCP ACK num:          0xdce1fe1
+TCP header length:    8
+TCP window size:      5840
+TCP checksum:         0x8569
+pad length:           0
+
+paylen: 54 (54)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            40
+IP ID:                0x130a
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x0274
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce1fe1
+TCP ACK num:          0x3d283f18
+TCP header length:    5
+TCP window size:      4158
+TCP checksum:         0xcc83
+pad length:           0
+
+paylen: 479 (479)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            465
+IP ID:                0x130b
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x00ca
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce1fe1
+TCP ACK num:          0x3d283f18
+TCP header length:    5
+TCP window size:      4158
+TCP checksum:         0x20f0
+pad length:           0
+
+paylen: 56 (56)
+src:                  00:26:c7:b5:06:a4
+dst:                  00:90:fb:24:bc:f3
+length/type:          0x0800
+IP length:            40
+IP ID:                0x15f9
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               45
+IP Protocol:          TCP
+IP checksum:          0x5285
+IP source:            128.119.245.12
+IP destination:       10.200.101.6
+TCP Source Port:      80
+TCP Destination Port: 17281
+TCP Sequence num:     0x3d283f18
+TCP ACK num:          0xdce218a
+TCP header length:    5
+TCP window size:      54
+TCP checksum:         0xdae2
+pad length:           2
+pad0: 00
+pad1: 00
+
+paylen: 1440 (1440)
+src:                  00:26:c7:b5:06:a4
+dst:                  00:90:fb:24:bc:f3
+length/type:          0x0800
+IP length:            1426
+IP ID:                0x15fa
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               45
+IP Protocol:          TCP
+IP checksum:          0x4d1a
+IP source:            128.119.245.12
+IP destination:       10.200.101.6
+TCP Source Port:      80
+TCP Destination Port: 17281
+TCP Sequence num:     0x3d283f18
+TCP ACK num:          0xdce218a
+TCP header length:    5
+TCP window size:      54
+TCP checksum:         0xc1af
+pad length:           0
+
+paylen: 1440 (1440)
+src:                  00:26:c7:b5:06:a4
+dst:                  00:90:fb:24:bc:f3
+length/type:          0x0800
+IP length:            1426
+IP ID:                0x15fb
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               45
+IP Protocol:          TCP
+IP checksum:          0x4d19
+IP source:            128.119.245.12
+IP destination:       10.200.101.6
+TCP Source Port:      80
+TCP Destination Port: 17281
+TCP Sequence num:     0x3d284482
+TCP ACK num:          0xdce218a
+TCP header length:    5
+TCP window size:      54
+TCP checksum:         0xa15e
+pad length:           0
+
+paylen: 54 (54)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            40
+IP ID:                0x130c
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x0272
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce218a
+TCP ACK num:          0x3d2849ec
+TCP header length:    5
+TCP window size:      3811
+TCP checksum:         0xc161
+pad length:           0
+
+paylen: 54 (54)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            40
+IP ID:                0x130d
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x0271
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce218a
+TCP ACK num:          0x3d2849ec
+TCP header length:    5
+TCP window size:      4158
+TCP checksum:         0xc006
+pad length:           0
+
+paylen: 1440 (1440)
+src:                  00:26:c7:b5:06:a4
+dst:                  00:90:fb:24:bc:f3
+length/type:          0x0800
+IP length:            1426
+IP ID:                0x15fc
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               45
+IP Protocol:          TCP
+IP checksum:          0x4d18
+IP source:            128.119.245.12
+IP destination:       10.200.101.6
+TCP Source Port:      80
+TCP Destination Port: 17281
+TCP Sequence num:     0x3d2849ec
+TCP ACK num:          0xdce218a
+TCP header length:    5
+TCP window size:      54
+TCP checksum:         0xe2ac
+pad length:           0
+
+paylen: 699 (699)
+src:                  00:26:c7:b5:06:a4
+dst:                  00:90:fb:24:bc:f3
+length/type:          0x0800
+IP length:            685
+IP ID:                0x15fd
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               45
+IP Protocol:          TCP
+IP checksum:          0x4ffc
+IP source:            128.119.245.12
+IP destination:       10.200.101.6
+TCP Source Port:      80
+TCP Destination Port: 17281
+TCP Sequence num:     0x3d284f56
+TCP ACK num:          0xdce218a
+TCP header length:    5
+TCP window size:      54
+TCP checksum:         0xfd2c
+pad length:           0
+
+paylen: 54 (54)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            40
+IP ID:                0x130e
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x0270
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce218a
+TCP ACK num:          0x3d2851db
+TCP header length:    5
+TCP window size:      3996
+TCP checksum:         0xb8b9
+pad length:           0
+
+paylen: 417 (417)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            403
+IP ID:                0x130f
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x0104
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce218a
+TCP ACK num:          0x3d2851db
+TCP header length:    5
+TCP window size:      3996
+TCP checksum:         0xf58e
+pad length:           0
+
+paylen: 564 (564)
+src:                  00:26:c7:b5:06:a4
+dst:                  00:90:fb:24:bc:f3
+length/type:          0x0800
+IP length:            550
+IP ID:                0x15fe
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               45
+IP Protocol:          TCP
+IP checksum:          0x5082
+IP source:            128.119.245.12
+IP destination:       10.200.101.6
+TCP Source Port:      80
+TCP Destination Port: 17281
+TCP Sequence num:     0x3d2851db
+TCP ACK num:          0xdce22f5
+TCP header length:    5
+TCP window size:      63
+TCP checksum:         0x10db
+pad length:           0
+
+paylen: 447 (447)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            433
+IP ID:                0x1310
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x00e5
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce22f5
+TCP ACK num:          0x3d2853d9
+TCP header length:    5
+TCP window size:      3869
+TCP checksum:         0x09dd
+pad length:           0
+
+paylen: 564 (564)
+src:                  00:26:c7:b5:06:a4
+dst:                  00:90:fb:24:bc:f3
+length/type:          0x0800
+IP length:            550
+IP ID:                0x15ff
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               45
+IP Protocol:          TCP
+IP checksum:          0x5081
+IP source:            128.119.245.12
+IP destination:       10.200.101.6
+TCP Source Port:      80
+TCP Destination Port: 17281
+TCP Sequence num:     0x3d2853d9
+TCP ACK num:          0xdce247e
+TCP header length:    5
+TCP window size:      71
+TCP checksum:         0x0e4c
+pad length:           0
+
+paylen: 54 (54)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            40
+IP ID:                0x1311
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x026d
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce247e
+TCP ACK num:          0x3d2855d7
+TCP header length:    5
+TCP window size:      4158
+TCP checksum:         0xb127
+pad length:           0
+
+paylen: 447 (447)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            433
+IP ID:                0x1312
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x00e3
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce247e
+TCP ACK num:          0x3d2855d7
+TCP header length:    5
+TCP window size:      4158
+TCP checksum:         0x0535
+pad length:           0
+
+paylen: 564 (564)
+src:                  00:26:c7:b5:06:a4
+dst:                  00:90:fb:24:bc:f3
+length/type:          0x0800
+IP length:            550
+IP ID:                0x1600
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               45
+IP Protocol:          TCP
+IP checksum:          0x5080
+IP source:            128.119.245.12
+IP destination:       10.200.101.6
+TCP Source Port:      80
+TCP Destination Port: 17281
+TCP Sequence num:     0x3d2855d7
+TCP ACK num:          0xdce2607
+TCP header length:    5
+TCP window size:      80
+TCP checksum:         0x08bc
+pad length:           0
+
+paylen: 54 (54)
+src:                  00:90:fb:24:bc:f3
+dst:                  00:26:c7:b5:06:a4
+length/type:          0x0800
+IP length:            40
+IP ID:                0x1313
+IP flags:             0x0
+IP offset:            0x00004000
+IP TTL:               128
+IP Protocol:          TCP
+IP checksum:          0x026b
+IP source:            10.200.101.6
+IP destination:       128.119.245.12
+TCP Source Port:      17281
+TCP Destination Port: 80
+TCP Sequence num:     0x0dce2607
+TCP ACK num:          0x3d2857d5
+TCP header length:    5
+TCP window size:      4030
+TCP checksum:         0xae20
+pad length:           0
